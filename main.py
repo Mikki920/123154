@@ -1,38 +1,4 @@
-ЗАВДАННЯ 1
-#class Animal:
-    #def __init__(self, species):
-        #self.species = species
 
-    #def make_sound(self):
-        #print("Some generic animal sound")
-
-#class Machine:
-    #def __init__(self, brand):
-        #self.brand = brand
-
-    #def start(self):
-        #print("The machine is starting")
-
-#class RobotAnimal(Animal, Machine):
-    #def __init__(self, species, brand, model):
-
-        #Animal.__init__(self, species)
-        #Machine.__init__(self, brand)
-        #self.model = model
-
-    #def make_sound(self):
-        #print("Beep boop, I'm a robot animal")
-
-    #def move(self):
-        #print("The robot animal is moving")
-
-
-#robot_dog = RobotAnimal(species="Dog", brand="TechCorp", model="Rover")
-#robot_dog.make_sound()
-#robot_dog.start()
-#robot_dog.move()
-
-ЗАВДАННЯ 2
 import random
 
 
